@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05248DE346501CD4CE35A66C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FCC2AF5EBE9529D4472BED /* libPods.a */; };
 		B1D019E11A682C27005705E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D019E01A682C27005705E3 /* AppDelegate.swift */; };
 		B1D019E31A682C27005705E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D019E21A682C27005705E3 /* ViewController.swift */; };
 		B1D019E61A682C27005705E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D019E41A682C27005705E3 /* Main.storyboard */; };
 		B1D019E81A682C27005705E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D019E71A682C27005705E3 /* Images.xcassets */; };
 		B1D019EB1A682C27005705E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D019E91A682C27005705E3 /* LaunchScreen.xib */; };
 		B1D019F71A682C28005705E3 /* YakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D019F61A682C28005705E3 /* YakTests.swift */; };
+		B1D01A011A682FCC005705E3 /* StrandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D01A001A682FCC005705E3 /* StrandTableViewController.swift */; };
+		B1D01A031A683017005705E3 /* StrandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D01A021A683017005705E3 /* StrandTableViewCell.swift */; };
+		B1D01A0A1A6840C7005705E3 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D01A091A6840C7005705E3 /* PostViewController.swift */; };
+		B1D01A0C1A684CE9005705E3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D01A0B1A684CE9005705E3 /* DetailViewController.swift */; };
+		B1D01A0E1A684D0D005705E3 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D01A0D1A684D0D005705E3 /* CommentTableViewCell.swift */; };
+		B1D01A121A687492005705E3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D01A111A687492005705E3 /* SettingsTableViewController.swift */; };
+		B1D01A141A687F88005705E3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D01A131A687F88005705E3 /* CoreLocation.framework */; };
+		B1D01A161A687F8D005705E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D01A151A687F8D005705E3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2A7D7E43B3D032004D7A02 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		93FCC2AF5EBE9529D4472BED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D019DB1A682C27005705E3 /* Yak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D019DF1A682C27005705E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1D019E01A682C27005705E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +47,16 @@
 		B1D019F01A682C28005705E3 /* YakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D019F51A682C28005705E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1D019F61A682C28005705E3 /* YakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakTests.swift; sourceTree = "<group>"; };
+		B1D01A001A682FCC005705E3 /* StrandTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrandTableViewController.swift; sourceTree = "<group>"; };
+		B1D01A021A683017005705E3 /* StrandTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrandTableViewCell.swift; sourceTree = "<group>"; };
+		B1D01A061A683F0F005705E3 /* Yak-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yak-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B1D01A091A6840C7005705E3 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B1D01A0B1A684CE9005705E3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B1D01A0D1A684D0D005705E3 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		B1D01A111A687492005705E3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		B1D01A131A687F88005705E3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B1D01A151A687F8D005705E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ECF0D02D1C853F1E0FB536AD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D01A161A687F8D005705E3 /* MapKit.framework in Frameworks */,
+				B1D01A141A687F88005705E3 /* CoreLocation.framework in Frameworks */,
+				05248DE346501CD4CE35A66C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DA873499393B63CF12B5055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F2A7D7E43B3D032004D7A02 /* Pods.debug.xcconfig */,
+				ECF0D02D1C853F1E0FB536AD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B1D019D21A682C27005705E3 = {
 			isa = PBXGroup;
 			children = (
 				B1D019DD1A682C27005705E3 /* Yak */,
 				B1D019F31A682C28005705E3 /* YakTests */,
 				B1D019DC1A682C27005705E3 /* Products */,
+				1DA873499393B63CF12B5055 /* Pods */,
+				FD894F471B4F97E1EA68B5CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +114,14 @@
 			children = (
 				B1D019E01A682C27005705E3 /* AppDelegate.swift */,
 				B1D019E21A682C27005705E3 /* ViewController.swift */,
+				B1D01A061A683F0F005705E3 /* Yak-Bridging-Header.h */,
 				B1D019E41A682C27005705E3 /* Main.storyboard */,
+				B1D01A111A687492005705E3 /* SettingsTableViewController.swift */,
+				B1D01A0B1A684CE9005705E3 /* DetailViewController.swift */,
+				B1D01A0D1A684D0D005705E3 /* CommentTableViewCell.swift */,
+				B1D01A091A6840C7005705E3 /* PostViewController.swift */,
+				B1D01A001A682FCC005705E3 /* StrandTableViewController.swift */,
+				B1D01A021A683017005705E3 /* StrandTableViewCell.swift */,
 				B1D019E71A682C27005705E3 /* Images.xcassets */,
 				B1D019E91A682C27005705E3 /* LaunchScreen.xib */,
 				B1D019DE1A682C27005705E3 /* Supporting Files */,
@@ -112,6 +154,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FD894F471B4F97E1EA68B5CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1D01A151A687F8D005705E3 /* MapKit.framework */,
+				B1D01A131A687F88005705E3 /* CoreLocation.framework */,
+				93FCC2AF5EBE9529D4472BED /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D019FA1A682C28005705E3 /* Build configuration list for PBXNativeTarget "Yak" */;
 			buildPhases = (
+				A5C7C373509E0659CC9F28F2 /* Check Pods Manifest.lock */,
 				B1D019D71A682C27005705E3 /* Sources */,
 				B1D019D81A682C27005705E3 /* Frameworks */,
 				B1D019D91A682C27005705E3 /* Resources */,
+				D315806B6C86492A1A743E94 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +261,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5C7C373509E0659CC9F28F2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D315806B6C86492A1A743E94 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1D019D71A682C27005705E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D01A031A683017005705E3 /* StrandTableViewCell.swift in Sources */,
+				B1D01A011A682FCC005705E3 /* StrandTableViewController.swift in Sources */,
 				B1D019E31A682C27005705E3 /* ViewController.swift in Sources */,
+				B1D01A0C1A684CE9005705E3 /* DetailViewController.swift in Sources */,
+				B1D01A121A687492005705E3 /* SettingsTableViewController.swift in Sources */,
+				B1D01A0E1A684D0D005705E3 /* CommentTableViewCell.swift in Sources */,
 				B1D019E11A682C27005705E3 /* AppDelegate.swift in Sources */,
+				B1D01A0A1A6840C7005705E3 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +427,28 @@
 		};
 		B1D019FB1A682C28005705E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2A7D7E43B3D032004D7A02 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Yak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yak-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B1D019FC1A682C28005705E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF0D02D1C853F1E0FB536AD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Yak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yak-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +505,7 @@
 				B1D019FC1A682C28005705E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1D019FD1A682C28005705E3 /* Build configuration list for PBXNativeTarget "YakTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +514,7 @@
 				B1D019FF1A682C28005705E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
